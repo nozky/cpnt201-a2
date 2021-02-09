@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Raster Image Optimization</title>
+</head>
+<body>
+  
+  <div class="container">
+    
+
+    <h2>Orange</h2>
+    <img 
+      loading="lazy"
+      src="./assets/images/md/orange-md.webp" 
+      alt="orange photo"
+      width="1024"
+      height="819"
+
+      srcset="./assets/images/sm/orange-sm.webp 800w,
+              ./assets/images/md/orange-md.webp  1000w,
+              ./assets/images/lg/orange-lg.webp  1400w"
+      >
+    
+    <h2>Pinball Machine</h2>  
+    <img 
+    loading="lazy"
+    src="./assets/images/md/pinball-md.webp" 
+    alt="pinball machine photo"
+    width="1024"
+    height="683"
+
+    srcset="./assets/images/sm/pinball-sm.webp 800w,
+            ./assets/images/md/pinball-md.webp  1000w,
+            ./assets/images/lg/pinball-lg.webp  1400w"
+    >
+
+    <h2>Sky and Mountain</h2>  
+    <img 
+    loading="lazy"
+    src="./assets/images/md/sky-md.webp" 
+    alt="mountain sky photo"
+    width="1024"
+    height="683"
+
+    srcset="./assets/images/sm/sky-sm.webp 800w,
+            ./assets/images/md/sky-md.webp  1000w,
+            ./assets/images/lg/sky-lg.webp  1400w"
+    >
+
+
+   </div>
+
+</body>
+</html>
+
+<!-- 
+srcset small first
+
+small: 500px wide;
+medium: 1024px wide;
+large: 1920px wide; -->
